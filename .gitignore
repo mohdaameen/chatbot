@@ -1,0 +1,170 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Virtual Environment
+venv/
+ENV/
+env/
+env.bak/
+.venv/
+.venv.bak/
+
+# dotenv environment variables file
+.env
+.env.*
+
+# Logs and database files
+*.log
+*.db
+*.sqlite3
+
+# Local development files
+local_settings.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.swn
+*.swp
+*.tmp
+
+# Node modules (if using Node.js or frontend)
+node_modules/
+
+# Yarn (if using Yarn)
+yarn-error.log
+yarn.lock
+
+# NPM (if using npm)
+package-lock.json
+
+# Redis (if using Redis)
+dump.rdb
+
+# Coverage directory used by tools like coverage.py
+htmlcov/
+
+# Test result reports
+test-results/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# JetBrains
+.idea/
+
+# Local SSH keys and config
+*.pem
+*.pub
+config
+known_hosts
+id_rsa
+id_rsa.pub
+
+# JetBrains Riders / Resharper
+.idea/
+.vercel
