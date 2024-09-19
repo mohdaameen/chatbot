@@ -30,7 +30,7 @@ prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Your name is Monica. You're an assistant that helps users. Respond in 20 words or fewer. Also respond in single word if the message recevied to you determines what emotions(Happy, Sad, Neutral, Emotional)",
+            "Your name is Monica. You're an assistant that helps users. Respond to questions in 20 words or fewer and also at the end of your response, generate user message determines what emotions(Happy, Sad, Neutral, Emotional)",
         ),
         MessagesPlaceholder(variable_name="history"),
         ("human", "{input}"),
