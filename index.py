@@ -40,7 +40,7 @@ prompt = ChatPromptTemplate.from_messages(
 runnable = prompt | llm
 
 def get_session_history(session_id: str) -> BaseChatMessageHistory:
-    return SQLChatMessageHistory(session_id=session_id, connection_string="sqlite:///memory.db")
+    return SQLChatMessageHistory(session_id=session_id, connection="sqlite:///memory.db")
 
 with_message_history = RunnableWithMessageHistory(
     runnable,
